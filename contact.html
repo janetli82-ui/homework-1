@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style/public.css" />
+    <link rel="stylesheet" href="./style/contact.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="meal-header">
+      <div class="logo">
+        <h1>
+          <a href="index.html" title="soja soja"> Soja Soja </a>
+        </h1>
+      </div>
+      <div class="right">
+        <a
+          href="https://www.google.com/maps/place/Edsbergs+Center/@59.4455985,17.9651789,17z/data=!3m1!4b1!4m6!3m5!1s0x465f993120ea3437:0x34ade1cb523b79e9!8m2!3d59.4455985!4d17.9651789!16s%2Fg%2F11cmy9xq5k?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          class="adress"
+        >
+          <span>Find us</span>
+        </a>
+        <a href="menu.html" target="_blank" class="menu"></a>
+      </div>
+    </div>
+    <main class="main">
+      <form
+        action="mailto:someones@gmail.com"
+        method="GET"
+        enctype="text/plain"
+      >
+        <fieldset>
+          <legend>Contact us</legend>
+          <div class="contact">
+            <label for="first-name">First name:</label>
+            <input
+              type="text"
+              name="fisrt-name"
+              id="first-name"
+              placeholder="Enter your first name"
+              required
+            /><br />
+            <label for="last-name">Last name:</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Enter your last name"
+              required
+            /><br />
+            <label for="mail">Email:</label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Enter your email"
+              required
+            />
+            <div class="message">
+              <label for="message">Message:</label><br />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <div class="footer">
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/p/Soja-Soja-Dumpling-Restaurang-100063482735172/?locale=sv_SE"
+            class="facebook"
+          ></a>
+          <a
+            href="https://www.instagram.com/soja_soja_dumpling_restaurang/"
+            class="ins"
+          ></a>
+          <a href="#" class="tik"></a>
+          <a href="index.html" class="arrow"></a>
+        </li>
+      </ul>
+      <p>&copy;2025 Soja Soja</p>
+    </div>
+  </body>
+</html>

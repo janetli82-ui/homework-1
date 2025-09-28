@@ -1,0 +1,41 @@
+.food {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin-top: 15px;
+  overflow: hidden;
+  position: relative;
+  width: calc(34.28% - 30px);
+}
+
+.item a {
+  border-radius: 18px;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.item a img {
+  width: 100%;
+  height: 100%;
+}
+
+.item .content {
+  color: #fff;
+  font-size: 35px;
+  height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 1400px;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.item:hover .content {
+  transform: translateY(-1300px);
+}

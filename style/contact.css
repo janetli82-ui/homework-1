@@ -1,0 +1,83 @@
+.main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+}
+
+/* @media (max-width: 535px) and (min-width: 375px) {
+  .main {
+    width: 100%;
+    max-height: 375px;
+  }
+
+  form {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 374px) {
+  .main {
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+  }
+
+  form {
+    width: 95%;
+  }
+} */
+
+fieldset {
+  border: 1px solid aquamarine;
+  border-radius: 10px;
+}
+
+legend {
+  background: linear-gradient(
+    97deg,
+    #0096ff,
+    #bb64ff 42%,
+    #f24168 74%,
+    #eb7500
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+input {
+  border-radius: 8px;
+  margin: 5px;
+  padding: 2px;
+}
+
+.message {
+  color: #000;
+  margin-top: 11px;
+}
+
+textarea {
+  border-radius: 10px;
+  height: 100px;
+  width: 500px;
+}
+
+button {
+  background-color: aqua;
+  border-radius: 12px;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 17px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 80px;
+}
+
+button:hover {
+  background-color: red;
+  height: 30px;
+  width: 100px;
+}
