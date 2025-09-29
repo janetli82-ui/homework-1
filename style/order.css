@@ -1,7 +1,6 @@
 .order_content {
   flex: 1;
   color: #dff9f5;
-  margin: 30px;
 }
 
 .order_content h2 {
@@ -67,4 +66,10 @@ td {
   height: 100%;
   position: relative;
   width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+  .order_content {
+    font-size: 13px;
+  }
 }
