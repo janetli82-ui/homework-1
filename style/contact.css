@@ -2,7 +2,16 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  height: 100%;
   margin: 80px auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  form {
+    width: 60%;
+    height: 70%;
+  }
 }
 
 fieldset {
@@ -38,7 +47,7 @@ input {
 textarea {
   border-radius: 10px;
   height: 100px;
-  width: 100%;
+  width: 300px;
 }
 
 button {

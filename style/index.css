@@ -8,18 +8,12 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .banner video {
-  max-height: 100%;
-  max-width: 100%;
-  margin: 27px 0;
-  height: auto;
-  width: auto;
-}
-
-@media (min-width: 375px) {
-  .banner video {
-    margin: 72px 0;
-  }
+  height: 100%;
+  padding: 56px 0;
+  width: 100%;
 }
