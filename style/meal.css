@@ -7,11 +7,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 769px) {
-  .food {
-    flex-direction: row;
-  }
-}
+
 
 .item {
   margin-top: 15px;
@@ -45,4 +41,10 @@
 
 .item:hover .content {
   transform: translateY(-1400px);
+}
+
+@media screen and (max-width: 768px) {
+  .food {
+    flex-direction: row;
+  }
 }

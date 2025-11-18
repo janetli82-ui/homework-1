@@ -79,13 +79,13 @@ body {
   text-indent: -999px;
 }
 
-.header .nav {
+.header .nav, .meal-header .nav{
   display: flex;
   gap: 60px;
 }
 
 .nav li a:hover {
-  color: aquamarine;
+  color: rgb(158, 189, 18);
   text-decoration: underline;
 }
 
@@ -93,6 +93,10 @@ body {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.active{
+  background-color: rgb(221, 62, 97);
 }
 
 .right {
@@ -167,4 +171,10 @@ body {
   font-size: 16px;
   padding-left: 27px;
   text-align: center;
+}
+
+@media (max-width:1100px) {
+  .header .nav, .meal-header .nav {
+    display: none;
+  }
 }
