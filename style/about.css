@@ -2,7 +2,7 @@
   border: 1px solid rgb(237, 225, 224);
   flex: 1;
   height: 100%;
-  margin: 20px auto;
+  margin: 35px auto;
   width: 50%;
 }
 
@@ -13,13 +13,6 @@
   width: 100%;
 }
 
-@media screen and (max-width: 769px) {
-  .main h2 {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 14px;
-  }
-}
 
 .main .content img {
   display: block;
@@ -68,4 +61,12 @@
   text-orientation: mixed;
   writing-mode: vertical-rl;
   word-spacing: 5px;
+}
+
+@media screen and (max-width: 769px) {
+  .main h2 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 14px;
+  }
 }

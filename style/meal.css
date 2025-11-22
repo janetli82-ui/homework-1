@@ -7,8 +7,6 @@
   justify-content: center;
 }
 
-
-
 .item {
   margin-top: 15px;
   overflow: hidden;
@@ -46,5 +44,9 @@
 @media screen and (max-width: 768px) {
   .food {
     flex-direction: row;
+  }
+
+  .item .content{
+    display: none;
   }
 }
