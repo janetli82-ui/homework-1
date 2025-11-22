@@ -1,3 +1,7 @@
+.header {
+  align-items: center;
+}
+
 .order_content {
   flex: 1;
   color: #dff9f5;
@@ -71,5 +75,13 @@ td {
 @media screen and (max-width: 769px) {
   .order_content {
     font-size: 13px;
+  }
+
+  .order_content h2 {
+    font-size: 27px;
+  }
+
+  .menu-nav {
+    top: 67px;
   }
 }
